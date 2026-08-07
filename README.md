@@ -99,6 +99,24 @@ variation pushes it over. The underlying reason is that tire deflection depends 
 the wheel bounces on the tire, which `Ks` and `Cs` have very little control over. The
 Interpretation section of the Live Script explains this in full.
 
+## Dependencies
+
+| Required | Used for |
+|---|---|
+| MATLAB, Simulink | Base |
+| Simscape, Simscape Multibody | The model itself |
+| Signal Processing Toolbox | Building the rough road profile and computing RMS values |
+| Parallel Computing Toolbox | Optional. Speeds up the sweep. Without it the same simulations run one at a time. |
+
+## Reproducing the results
+
+The Live Script loads saved results by default so it opens quickly. To regenerate everything
+from scratch, uncomment the marked line in Task 5 and in Task 6, then run the whole script.
+
+```matlab
+[bestKs, bestCs, tuningTable] = tuneSuspension();          % about 5 minutes
+[robSummary, robTable] = robustnessTest(20000, 2250, 20);  % about 2 minutes
+
 ## Assumptions
 
 * The limits we test against (suspension travel 0.08 m, tire deflection 0.02 m) are our own
