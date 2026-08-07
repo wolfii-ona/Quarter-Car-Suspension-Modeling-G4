@@ -1,0 +1,16 @@
+# Simulink and MATLAB build artifacts, regenerated automatically on any machine
+slprj/
+*.slxc
+*.slxc.*
+
+# MATLAB editor autosave and backup files
+*.asv
+*.autosave
+*.m~
+
+# Simulink cache and generated code
+codegen/
+*.mex*
+
+# Local logs
+*.log
