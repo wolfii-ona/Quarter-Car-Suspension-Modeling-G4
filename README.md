@@ -117,6 +117,13 @@ from scratch, uncomment the marked line in Task 5 and in Task 6, then run the wh
 [bestKs, bestCs, tuningTable] = tuneSuspension();          % about 5 minutes
 [robSummary, robTable] = robustnessTest(20000, 2250, 20);  % about 2 minutes
 
+
+Both write their output to `results/`. The numbers are repeatable because the rough road and
+the robustness trials use fixed random seeds.
+
+## Assumptions
+```
+
 ## Assumptions
 
 * The limits we test against (suspension travel 0.08 m, tire deflection 0.02 m) are our own
