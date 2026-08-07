@@ -1,6 +1,6 @@
 # Quarter-Car Suspension Modeling and Tuning (Simscape Multibody)
 
-Made by Group 4
+<u>Made by Group 4 </u>
 
 A model of one corner of a car's suspension, built in Simscape Multibody. It comes with a
 set of test roads, an automatic scoring system, a parameter sweep that tunes the suspension,
