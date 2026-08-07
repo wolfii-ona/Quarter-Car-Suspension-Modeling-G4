@@ -54,6 +54,9 @@ error until those exist.
 `summary.png`, `tuning_table.csv`, `tuning_heatmap.png`, `tuning_comparison.png`,
 `robustness_table.csv`, `robustness_summary.png`, `step1_verification.png`
 
+### Version control
+`.gitignore` lists the files Git should leave out of the repository. MATLAB and Simulink create temporary files while they run, including the slprj folder, .slxc compile caches, and .asv editor backups. These are rebuilt automatically whenever the model is opened on any machine, so keeping them adds clutter without adding anything useful. Everything listed under Files above is tracked as normal.
+
 ## Faults found in the original model
 
 The model would not run when we started. Four separate faults were found, and each one only
