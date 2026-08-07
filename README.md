@@ -1,6 +1,6 @@
 # Quarter-Car Suspension Modeling via Simscape Multibody
 
-*Made by Group 4*
+*:seedling: Made by Group 4*
 
 A model of one corner of a car's suspension, built in Simscape Multibody. It comes with a
 set of test roads, an automatic scoring system, a parameter sweep that tunes the suspension,
@@ -107,4 +107,4 @@ Interpretation section of the Live Script explains this in full.
 * The rough road uses a fixed random seed (42) so every design is tested against the same
   road.
 
-*We appreciate all kinds of useful feedback. This isn't perfect and we will keep on improving as we learn.*
+*:white_check_mark:We appreciate all kinds of useful feedback. This isn't perfect and we will keep on improving as we learn.*
