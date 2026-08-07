@@ -1,4 +1,4 @@
-# Quarter-Car Suspension Modeling and Tuning via Simscape Multibody
+# Quarter-Car Suspension Modeling via Simscape Multibody
 
 *Made by Group 4*
 
